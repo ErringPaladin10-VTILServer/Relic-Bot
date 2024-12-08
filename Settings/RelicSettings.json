@@ -1,0 +1,34 @@
+{
+    "GlobalSettings": {
+        "BotName": "Relic",
+        "RunWebInterface": false,
+
+        "Prefix": ";",
+        "CommandErrors": {
+            "NotifyRankExceeds": true,
+            "NotifyGeneralError": true,
+            "NotifyParsedError": false
+        }
+    },
+    "ConsoleSettings": {
+        "StorageUri": ".\\storage/",
+        "StorageSettings": {
+            "Names": {
+                "currentusers": "CurrentUsers",
+                "systemCache": "SystemCache",
+                "userdata": "UserData",
+                "userdatamap": "UserDataMap"
+            },
+            "FileExtensions": {
+                "auth": ".auth",
+                "cache": ".cache",
+                "udm": ".udm",
+                "None": ""
+            },
+
+            "FileSettings": {
+                "CreateFileIfItDoesNotExist": true
+            }
+        }
+    }
+}
